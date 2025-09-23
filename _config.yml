@@ -1,0 +1,9 @@
+title: "MorphoCloud: On-Demand Cloud for 3D Slicer & SlicerMorph"
+description: MorphoCloud provides **on-demand cloud instances** and **reusable GitHub workflows** to support computational morphology, 3D morphometrics, and biomedical imaging research.
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-sitemap
