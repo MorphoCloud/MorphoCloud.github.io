@@ -32,15 +32,16 @@ GitHub issues.
 
 ## 🖥️ Available Instance Types
 
-| Flavor | RAM    | Cores | GPU         | Storage |
-| ------ | ------ | ----- | ----------- | ------- |
-| g3.l\* | 60GB   | 16    | A100 (20GB) | 100GB   |
-| g3.xl  | 125GB  | 32    | A100 (40GB) | 100GB   |
-| m3.x   | 250GB  | 64    | None        | 100GB   |
-| r3.l   | 500GB  | 64    | None        | 100GB   |
-| r3.xl  | 1000GB | 128   | None        | 100GB   |
 
-\*`g3.l` is the default instance.<br>
+| Flavor | RAM    | Cores | GPU         | Storage | Use Cases |
+| ------ | ------ | ----- | ----------- | ------- | --------- | 
+| g3.l\* | 60GB   | 16    | A100 (20GB) | 100GB   | General purpose digital morphology |
+| g3.xl  | 125GB  | 32    | A100 (40GB) | 100GB   | Photogrammetry, NNInteractive |
+| m3.x   | 250GB  | 64    | None        | 100GB   | Computationally intense tasks that don't require GPU. E.g., Image registration (e.g., ANTsPy) |
+| r3.l   | 500GB  | 64    | None        | 100GB   | Image registration with larger dataset |
+| r3.xl  | 1000GB | 128   | None        | 100GB   | Image registration with larger dataset |
+
+\*`g3.l` is the default instance and is usually more available than other instance flavors.<br>
 [Check real-time JetStream2 resource availability →](https://docs.jetstream-cloud.org/overview/status/#availability-of-scarce-resources)
 
 ## 🔑 Commands
