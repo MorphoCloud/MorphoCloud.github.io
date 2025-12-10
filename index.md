@@ -55,7 +55,7 @@ Once approved, you can control your instance from the issue itself:
 | `/unshelve`        | Resume shelved instance     |
 | `/delete_instance` | Delete an instance          |
 | `/delete_volume`   | Remove associated storage   |
-| `/renew`           | Extend lifespan by 4 hours  |
+| `/renew`           | Extend lifespan of instance by another 60 days (one time only)  |
 | `/email`           | Resend access email         |
 
 See the full
