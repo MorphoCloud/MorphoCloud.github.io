@@ -44,6 +44,8 @@ GitHub issues.
 \*`g3.l` is the default instance and is usually more available than other instance flavors.<br>
 [Check real-time JetStream2 resource availability →](https://docs.jetstream-cloud.org/overview/status/#availability-of-scarce-resources)
 
+**Important Note:** Storage refers the persistent storage volume located on `/media/volume/MyData`. This is where you should keep all your files. The root file system (where your Desktop, Documents, Downloads) folder are located is very small, and if it fills up your instance my function erratically, or not function at all. Make sure you move or create all your files in your `/media/volume/MyData` storage volume. 
+
 ## 🔑 Commands
 
 Once approved, you can control your instance from the issue itself:
