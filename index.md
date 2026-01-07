@@ -63,6 +63,21 @@ Once approved, you can control your instance from the issue itself:
 See the full
 [command reference](https://github.com/MorphoCloud/MorphoCloudWorkflow/blob/main/issue-commands.md).
 
+
+## Installed Software
+| Software/Tool | Description |
+|--------------|-------------|
+| 3D Slicer | v5.10 |
+| [SlicerMorph](https://github.com/SlicerMorph/SlicerMorph) | ImageStacks, GPA, ALPACA, and other tools |
+| [DeCA](https://github.com/SlicerMorph/SlicerDenseCorrespondenceAnalysis) | Morphometrics via dense correspondence analysis |
+| [Photogrammetry](https://github.com/SlicerMorph/SlicerPhotogrammetry) | Generate textured 3D models from photographs |
+| [MorphoDepot](https://github.com/MorphoCloud/SlicerMorphoDepot) | Collaborative segmentation and data sharing |
+| [MEMOs](https://github.com/SlicerMorph/SlicerMEMOS) | AI based organ segmentation for E15 mouse embryos |
+| [NNInteractive](https://github.com/coendevente/SlicerNNInteractive) | AI assisted interactive segmentation |
+| PyTorch | GPU accelerated tensor library for AI tools |
+| R/Rstudio | Provided by JetStream2 |
+| Python3 | Provided by JetStream2 |
+
 ## 🚀 Quick Start
 
 - **For Researchers / Educators**: 👉 Request an instance via
