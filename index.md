@@ -65,6 +65,7 @@ See the full
 
 
 ## Installed Software
+
 | Software/Tool | Description |
 |--------------|-------------|
 | 3D Slicer | v5.10 |
